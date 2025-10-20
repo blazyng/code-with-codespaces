@@ -1,6 +1,6 @@
 ## Step 2: Use a custom image in your codespace
 
-The didn't specify any configuration for the codespace we just created, so GitHub used a default Docker image. While this is very useful, it won't be consistent and it doesn't version lock our runtime environment. Specifying the configuration is important to keep the development environment repeatable.
+Since no configuration was specified for the codespace that was just created, GitHub used a default Docker image. While this is useful, it isn't consistent, and it doesn't lock the version of our runtime environment. It's important to specify the configuration to keep the development environment repeatable.
 
 Let's do that now by providing a specific docker container image.
 
